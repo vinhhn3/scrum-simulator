@@ -18,7 +18,7 @@ function App() {
           <Navigation />
           <main className="main-content">
             <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route path="/scrum-simulator" element={<Dashboard />} />
               <Route path="/backlog" element={<ProductBacklog />} />
               <Route path="/planning" element={<SprintPlanning />} />
               <Route path="/sprint" element={<SprintBoard />} />
