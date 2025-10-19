@@ -1,0 +1,165 @@
+.metrics {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.metrics-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.metric-card {
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.2s;
+}
+
+.metric-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.metric-icon {
+  font-size: 2.5rem;
+}
+
+.metric-content h3 {
+  font-size: 2rem;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.metric-content p {
+  margin: 0.3rem 0 0 0;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.chart-container {
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.chart-container h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.chart-description {
+  color: #7f8c8d;
+  margin-bottom: 1.5rem;
+}
+
+.chart-wrapper {
+  margin-top: 1.5rem;
+}
+
+.velocity-insights {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.velocity-insights h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.velocity-insights ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.velocity-insights li {
+  padding: 0.5rem 0;
+  color: #555;
+  font-size: 1.05rem;
+}
+
+.velocity-insights strong {
+  color: #2c3e50;
+}
+
+.no-data {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #f8f9fa;
+  border: 2px dashed #dee2e6;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.no-data h2 {
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+.no-data p {
+  color: #7f8c8d;
+}
+
+.metrics-info {
+  background: #e8f5e9;
+  border-left: 4px solid #27ae60;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.metrics-info h3 {
+  margin-top: 0;
+  color: #2e7d32;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.info-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.info-card h4 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+.info-card p {
+  margin-bottom: 0;
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.page-header p {
+  color: #7f8c8d;
+  margin: 0.5rem 0 0 0;
+}
